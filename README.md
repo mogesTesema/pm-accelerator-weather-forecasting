@@ -89,6 +89,8 @@ Improvement over XGBoost baseline:
 
 0.0231 MAE absolute reduction
 
+![Residual Meta-Ensemble MAE Leaderboard](assets/visuals/final_model_mae_leaderboard.png)
+
 ## Quick Visual Leaderboard (Lower Is Better)
 
 ```text
@@ -112,9 +114,19 @@ jupyter notebook "PM_accelerator_data_science_assessment (2).ipynb"
 ## Key Outputs Reviewers Should Check
 
 1. Correlation and distribution plots in EDA.
+![Correlation Matrix of Weather Features](assets/visuals/eda_correlation_matrix.png)
+
 2. Spatial temperature distribution and country-level comparisons.
-3. Environmental impact relationships between weather and air quality indicators.
-4. Final benchmark table where Residual Meta-Ensemble ranks first by MAE.
+![Global Temperature Distribution](assets/visuals/spatial_temperature_distribution.png)
+
+3. Feature importance for temperature prediction.
+![Feature Importance for Temperature Prediction](assets/visuals/feature_importance.png)
+
+4. Environmental impact relationships between weather and air quality indicators.
+5. Final benchmark table where Residual Meta-Ensemble ranks first by MAE.
+6. Forecast diagnostics comparing actual values, Residual Meta-Ensemble, and XGBoost.
+
+![Residual Meta-Ensemble Forecast vs Actual](assets/visuals/final_model_forecast_vs_actual.png)
 
 ## Notes
 
